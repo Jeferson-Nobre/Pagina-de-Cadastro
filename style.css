@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2? family= Lemon & family= Mochiy+Pop+P+One & family= Patrick+Hand & family= The+Nautigal:wght@400; 700 & display=trocar');
+font-family: 'Lemon', cursiva;
+família de fontes: 'Mochiy Pop P One', sem serifa;
+font-family: 'Patrick Hand', cursiva;
+font-family: 'The Nautigal', cursiva;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lemon';
+    font-family: 'The Nautigal', cursiva;
+    font-family: 'Patrick Hand', cursiva;
+    font-family: 'Lemon', cursiva, sans-serif;
+    max-width: 1000px;
+    min-width: 250px;
+}
+
+.img {
+    height: 100vw;
+    width: 100vh;
+}
+ main {
+    background-image: url(papel-de-parede.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center center;
+    width: 100%;
+    height: 100%;
+    max-width: 2000px;
+    min-width: 250px;
+ }
+body {
+    background: #000816;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'The Nautigal', cursiva;
+    font-family: 'Patrick Hand', cursiva;
+    font-family: 'Lemon', cursiva, sans-serif;
+    padding: 2rem 4rem;
+    max-width: 2000px;
+    min-width: 250px;
+}
+
+main h1 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Lemon';
+    font-family: 'The Nautigal', cursiva;
+    font-family: 'Patrick Hand', cursiva;
+    font-family: 'Lemon', cursiva, sans-serif;
+    max-width: 2000px;
+    min-width: 250px;
+    text-align: center;
+}
+
+main.social-media {
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+    width: 30px;
+    margin: 3rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 2000px;
+    min-width: 250px;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input {
+    background: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0.05rem;
+    margin-top: 1rem;
+    outline: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.685);
+    border-radius: 8px;
+    max-width: 2000px;
+    min-width: 250px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border-top: none;
+    border-radius: 32px;
+    background: #006eff;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+    max-width: 150px;
+    min-width: 80px;
+}
+
+main form input[type="submite"]:hover {
+    background: #ffffff;
+}
+
+@media only screen and (min-width: 200px);
+
